@@ -358,7 +358,8 @@ fi
         echo "${EXPMODE} with channel '${CHANNEL_NAME}' and CLI timeout of '${CLI_TIMEOUT}'"
   fi
 # ask for confirmation to proceed
-askProceed
+
+#askProceed
 
 #Create the network using docker compose
 if [ "${MODE}" == "up" ]; then
